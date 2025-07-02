@@ -66,16 +66,16 @@ const MyGallery = ({isMobile}) => {
             width: 1,
             height: 1,
         },
-        {
-            src: lote9,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote10,
-            width: 1,
-            height: 1,
-        },
+        // {
+        //     src: lote9,
+        //     width: 1,
+        //     height: 1,
+        // },
+        // {
+        //     src: lote10,
+        //     width: 1,
+        //     height: 1,
+        // },
         {
             src: lote11,
             width: 1,

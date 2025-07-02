@@ -5,6 +5,7 @@ import {
     Text
 } from "@chakra-ui/react";
 import introduction from "../assets/introduction.jpg";
+import portada from "../assets/portada.jpg";
 
 
 const Introduction = () => {
@@ -14,8 +15,8 @@ const Introduction = () => {
     return (
         <Box
             w={"100%"}
-            h={"90vh"}
-            bgImage={introduction}
+            h={"120vh"}
+            bgImage={portada}
             bgSize={"cover"}
             bgPosition={"center"}
             bgRepeat={"no-repeat"}
@@ -34,7 +35,7 @@ const Introduction = () => {
                     zIndex={1}
                     textShadow={"2px 2px 4px #000000"}
                 >
-                    Consigue tu <Text color={amarillo}>Terreno</Text> ideal
+                    Finca <Text color={amarillo}>Raíz</Text>
                 </Heading>
             </Box>
 
